@@ -29,8 +29,8 @@ val animicon = AnimiconDrawable.create(this, R.drawable.ic_star, R.style.StarIco
 ```
 
 ### Define StarIconStyle with parent AnimiconStyle.
-Background color is the color of the appearing circle when icon selected.
-Active color is the color of the central icon when selected.
+Background color is the color of the appearing circle when icon selected.<br>
+Active color is the color of the central icon when selected.<br>
 Default color is the color of the centra icon when not selected.
 
 ```xml
