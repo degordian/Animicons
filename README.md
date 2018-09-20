@@ -35,8 +35,11 @@ Trigger them by changing their <b>selected</b> state.
 ```
  
  
- ## There are 2 icons available:
+ ## Icon Pack:
  
- ic_like :thumbsup:
+ ![](static/like_star_animation.gif)
  
- ic_star :star:
+ :star: drawable/ic_star
+ 
+ :thumbsup: drawable/ic_like
+
