@@ -21,17 +21,30 @@ dependencies {
 }
 ```
 
+## How to use Animicons?
 
-Now you can use the animated icons in your project.
-Trigger them by changing their <b>selected</b> state.
+### Create customized Animicon, use it as any other Drawable
+```kotlin
+val animicon = AnimiconDrawable.create(this, R.drawable.ic_star, R.style.StarIconStyle)
+```
+
+### Define StarIconStyle with parent AnimiconStyle.
+Background color is the color of the appearing circle when icon selected.
+Active color is the color of the central icon when selected.
+Default color is the color of the centra icon when not selected.
 
 ```xml
-    <ImageButton
-      android:id="+id/likeBtn"
-      app:srcCompat="@drawable/ic_like"/>
-```    
+ <style name="StarIconStyle" parent="AnimiconStyle">
+        <item name="animicon_background_color">#ffbb00</item>
+        <item name="animicon_active_color">#FFF</item>
+        <item name="animicon_default_color">#757575</item>
+</style>
+```
+
+Now you can trigger animations by changing the <b>selected</b> state of an view.
+  
 ```kotlin
-    likeBtn.setOnClickListener { v -> v.isSelected = !v.isSelected }
+likeBtn.setOnClickListener { v -> v.isSelected = !v.isSelected }
 ```
  
  
