@@ -1,0 +1,39 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="20dp"
+    android:height="20dp"
+    android:viewportHeight="20"
+    android:viewportWidth="20">
+
+    <group
+        android:name="welldone_bg_group"
+        android:pivotX="10"
+        android:pivotY="10"
+        android:scaleX="0"
+        android:scaleY="0">
+
+        <path
+            android:fillColor="#ffbb00"
+            android:fillType="evenOdd"
+            android:pathData="M10,10m-10,0a10,10 0,1 1,20 0a10,10 0,1 1,-20 0"
+            android:strokeColor="#00000000"
+            android:strokeWidth="1" />
+
+    </group>
+
+    <group
+        android:name="welldone_group"
+        android:pivotX="10"
+        android:pivotY="10"
+        android:scaleX="1.6"
+        android:scaleY="1.6">
+
+        <path
+            android:name="welldone_path_1"
+            android:fillColor="#757575"
+            android:fillType="evenOdd"
+            android:pathData="M14.8084,9.449C14.9909,9.2585 15.043,9.034 14.9648,8.7755C14.8866,8.517 14.7172,8.3673 14.4566,8.3265L11.7592,7.9184L10.5668,5.3673C10.4496,5.1224 10.2606,5 10,5C9.7394,5 9.5504,5.1224 9.4332,5.3673L8.2408,7.9184L5.5434,8.3265C5.2828,8.3673 5.1134,8.517 5.0352,8.7755C4.957,9.034 5.0091,9.2585 5.1916,9.449L7.1462,11.4286L6.6771,14.2449C6.638,14.5034 6.7227,14.7143 6.9312,14.8776C7.0354,14.9592 7.1592,15 7.3026,15C7.4068,15 7.5046,14.9728 7.5958,14.9184L10,13.5918L12.4042,14.9184C12.4954,14.9728 12.5932,15 12.6974,15C12.8408,15 12.9646,14.9592 13.0688,14.8776C13.2773,14.7143 13.362,14.5034 13.3229,14.2449L12.8538,11.4286L14.8084,9.449Z"
+            android:strokeColor="#00000000"
+            android:strokeWidth="1" />
+
+    </group>
+</vector>

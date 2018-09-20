@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+    <!-- provide a different drawable for each state-->
+    <item
+        android:id="@+id/state_active"
+        android:drawable="@drawable/ic_well_done_selected"
+        android:state_selected="true" />
+    <item
+        android:id="@+id/state_default"
+        android:drawable="@drawable/ic_well_done_default" />
+
+    <!-- specify transitions -->
+    <transition
+        android:fromId="@id/state_default"
+        android:toId="@id/state_active">
+        <aapt:attr name="android:drawable">
+            <animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+                android:drawable="@drawable/ic_well_done_default">
+                <target
+                    android:name="welldone_bg_group"
+                    android:animation="@anim/appear" />
+                <target
+                    android:name="welldone_path_1"
+                    android:animation="@animator/dark_gray_to_white" />
+                <target
+                    android:name="welldone_group"
+                    android:animation="@anim/decrease_scale" />
+
+            </animated-vector>
+        </aapt:attr>
+    </transition>
+
+    <transition
+        android:fromId="@id/state_active"
+        android:toId="@id/state_default">
+        <aapt:attr name="android:drawable">
+            <animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+                android:drawable="@drawable/ic_well_done_selected">
+                <target
+                    android:name="welldone_bg_group"
+                    android:animation="@anim/disappear" />
+                <target
+                    android:name="welldone_path_1"
+                    android:animation="@animator/white_to_dark_gray" />
+                <target
+                    android:name="welldone_group"
+                    android:animation="@anim/increase_scale" />
+            </animated-vector>
+        </aapt:attr>
+    </transition>
+
+</animated-selector>
