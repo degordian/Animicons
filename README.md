@@ -39,4 +39,4 @@ Trigger them by changing their <b>selected</b> state.
  
  ic_like :thumbsup:
  
- ic_start :star:
+ ic_star :star:
