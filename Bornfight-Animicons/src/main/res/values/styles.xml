@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AnimiconStyle">
+        <item name="animicon_background_color">#539CC8</item>
+        <item name="animicon_active_color">#FFFFFF</item>
+        <item name="animicon_default_color">#757575</item>
+    </style>
+
+</resources>

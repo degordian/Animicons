@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Animicon">
+        <attr name="animicon_background_color" format="color" />
+        <attr name="animicon_default_color" format="color" />
+        <attr name="animicon_active_color" format="color" />
+    </declare-styleable>
+</resources>

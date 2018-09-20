@@ -1,6 +1,6 @@
 <objectAnimator xmlns:android="http://schemas.android.com/apk/res/android"
     android:duration="300"
     android:propertyName="fillColor"
-    android:valueFrom="#757575"
+    android:valueFrom="?attr/animicon_default_color"
     android:valueTo="#FFF"
     android:valueType="colorType" />

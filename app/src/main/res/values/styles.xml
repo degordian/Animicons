@@ -8,4 +8,16 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="LikeIconStyle" parent="AnimiconStyle">
+        <item name="animicon_background_color">#539CC8</item>
+        <item name="animicon_active_color">#FFFFFF</item>
+        <item name="animicon_default_color">#757575</item>
+    </style>
+
+    <style name="StarIconStyle" parent="AnimiconStyle">
+        <item name="animicon_background_color">#ffbb00</item>
+        <item name="animicon_active_color">#FFF</item>
+        <item name="animicon_default_color">#757575</item>
+    </style>
+
 </resources>

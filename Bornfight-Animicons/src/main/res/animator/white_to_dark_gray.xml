@@ -2,4 +2,4 @@
     android:duration="300"
     android:propertyName="fillColor"
     android:valueFrom="#FFF"
-    android:valueTo="#757575" />
+    android:valueTo="?attr/animicon_default_color" />
