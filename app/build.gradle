@@ -5,14 +5,6 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 
 android {
-    signingConfigs {
-        config {
-            keyAlias 'bornfightlib'
-            keyPassword 'fjdhpo38fjaUOpjkGHbbK'
-            storeFile file('../keystore.jks')
-            storePassword 'fjdhpo38fjaUOpjkGHbbK'
-        }
-    }
     compileSdkVersion 28
     defaultConfig {
         applicationId "com.bornfight.libraries"
@@ -26,7 +18,6 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-            signingConfig signingConfigs.config
         }
     }
 }
@@ -39,5 +30,5 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
-    implementation project(':Bornfight-Animicons')
+    implementation 'com.github.degordian:android-libs:0.1'
 }

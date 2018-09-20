@@ -6,14 +6,6 @@ version="0.1"
 
 
 android {
-    signingConfigs {
-        config {
-            keyAlias 'bornfightlib'
-            keyPassword 'fjdhpo38fjaUOpjkGHbbK'
-            storeFile file('../keystore.jks')
-            storePassword 'fjdhpo38fjaUOpjkGHbbK'
-        }
-    }
     compileSdkVersion 28
     defaultConfig {
         minSdkVersion 15
@@ -28,7 +20,6 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-            signingConfig signingConfigs.config
         }
     }
 }
