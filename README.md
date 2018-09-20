@@ -17,7 +17,7 @@ allprojects {
 
 ```gradle
 dependencies {
-  implementation 'com.github.degordian:android-libs:0.1'
+  implementation 'com.github.degordian:android-libs:{latest-version}'
 }
 ```
 
