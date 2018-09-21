@@ -1,4 +1,4 @@
-# Animated Icons Pack for Android   [![](https://jitpack.io/v/degordian/android-libs.svg)](https://jitpack.io/#degordian/android-libs)
+# Animated Drawables Pack for Android   [![](https://jitpack.io/v/degordian/animicons.svg)](https://jitpack.io/#degordian/animicons)
 
 ## To add this icon pack to your Android project
 
@@ -17,7 +17,7 @@ allprojects {
 
 ```gradle
 dependencies {
-  implementation 'com.github.degordian:android-libs:{latest-version}'
+  implementation 'com.github.degordian:animicons:{latest-version}'
 }
 ```
 
